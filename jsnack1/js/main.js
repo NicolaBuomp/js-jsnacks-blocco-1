@@ -2,13 +2,8 @@ var parolaUno = prompt('inserisci una parola');
 var parolaDue = prompt('inserisci una parola');
 
 
-var lunghezzaUno = parolaLunga(parolaUno);
-var lunghezzaDue = parolaLunga(parolaDue);
-
-
 var risultato = parolaLunga(parolaUno, parolaDue);
 console.log(risultato);
-
 
 
 // function
