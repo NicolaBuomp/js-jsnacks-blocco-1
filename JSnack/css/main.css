@@ -11,6 +11,12 @@ a {
     font-weight: bold;
 }
 
+h1,
+h2,
+h3 {
+    padding: 20px;
+}
+
 body {
     background-color: #000;
     color: #fff;
@@ -30,8 +36,18 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     margin: 0 auto;
     height: 100vh;
+}
+
+.jsnack {
+    width: 90%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .box {

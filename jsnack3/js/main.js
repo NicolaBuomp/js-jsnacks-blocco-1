@@ -16,3 +16,4 @@ for (var i = 0; i < 5; i++) {
 }
 
 console.log(nomeCompleto);
+document.getElementById('nome-completo').innerHTML = nomeCompleto;

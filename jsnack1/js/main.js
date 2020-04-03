@@ -4,6 +4,7 @@ var parolaDue = prompt('inserisci una parola');
 
 var risultato = parolaLunga(parolaUno, parolaDue);
 console.log(risultato);
+document.getElementById('parola-lunga').innerHTML = risultato;
 
 
 // function
