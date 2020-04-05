@@ -15,6 +15,8 @@ var numeri = [1, 4, 2, 15, 120, 17, 3];
 
 
 var somma = isDispari(numeri);
+
+document.getElementById('somma-array').innerHTML = "La somma dei numeri dispari presenti nell'array è " + somma;
 console.log(somma);
 
 
