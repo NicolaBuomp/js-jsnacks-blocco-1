@@ -3,4 +3,28 @@
 //  Prova prima senza funzione e poi con funzione.
 
 
-var numeri = [1, 4, 2, 15, 120, 17, 3, 13, 48, 67];
+var numeri = [1, 4, 2, 15, 120, 17, 3];
+
+// for (var i = 0; i < numeri.length; i++) {
+//     if (i % 2 !== 0) {
+//         somma += numeri[i];
+//     }
+// }
+
+// console.log(somma);
+
+
+var somma = isDispari(numeri);
+console.log(somma);
+
+
+
+function isDispari(x) {
+    var risultato = 0;
+    for (var i = 0; i < x.length; i++) {
+        if (i % 2 !== 0) {
+            risultato += x[i];
+        }
+    }
+    return risultato;
+}
